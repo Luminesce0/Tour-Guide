@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Hotels Strings (Name/Location/Website) -->
+
+    <string name="hotel_website_1"><a href="http://www.fourseasons.com/">Four Seasons</a></string>
+    <string name="hotel_number_1"><a href="tel:303.389.3000">(303) 389-3000</a></string>
+    <string name="hotel_address_1"><a href="https://goo.gl/maps/rSDVtmAhgiw">1111 14th St Denver, CO 80202</a></string>
+    <string name="hotel_name_1">Four Seasons Hotel</string>
+    <string name="hotel_blurb_1">Times change, but our dedication to perfecting the travel experience never will. Our highly personalized 24-hour service, combined with authentic, elegant surroundings of the highest quality, embodies a home away from home for those who know and appreciate the best. As the company has grown from a single hotel to 99 in 41 countries, our deeply instilled culture, personified by our employees, continues to get stronger. Over more than 50 years, our people ave built an unrivalled depth of reliability, trust and connection with our guests – a connection we will steadfastly uphold, now and always.</string>
+
+    <string name="hotel_website_2"><a href=""></a></string>
+    <string name="hotel_number_2"><a href="tel:"></a></string>
+    <string name="hotel_address_2"><a href=""></a></string>
+    <string name="hotel_name_2"></string>
+    <string name="hotel_blurb_2"></string>
+
+    <string name="hotel_website_3"><a href=""></a></string>
+    <string name="hotel_number_3"><a href="tel:"></a></string>
+    <string name="hotel_address_3"><a href=""></a></string>
+    <string name="hotel_name_3"></string>
+    <string name="hotel_blurb_3"></string>
+
+    <string name="hotel_website_4"><a href=""></a></string>
+    <string name="hotel_number_4"><a href="tel:"></a></string>
+    <string name="hotel_address_4"><a href=""></a></string>
+    <string name="hotel_name_4"></string>
+    <string name="hotel_blurb_4"></string>
+
+    <string name="hotel_website_5"><a href=""></a></string>
+    <string name="hotel_number_5"><a href="tel:"></a></string>
+    <string name="hotel_address_5"><a href=""></a></string>
+    <string name="hotel_name_5"></string>
+    <string name="hotel_blurb_5"></string>
+
+    <!-- Restaurant Strings (Name/Location/Website)  -->
+
+    <string name="dining_website_1"><a href=""></a></string>
+    <string name="dining_number_1"><a href="tel:"></a></string>
+    <string name="dining_address_1"><a href=""></a></string>
+    <string name="dining_name_1"></string>
+    <string name="dining_blurb_1"></string>
+
+    <string name="dining_website_2"><a href=""></a></string>
+    <string name="dining_number_2"><a href="tel:"></a></string>
+    <string name="dining_address_2"><a href=""></a></string>
+    <string name="dining_name_2"></string>
+    <string name="dining_blurb_2"></string>
+
+    <string name="dining_website_3"><a href=""></a></string>
+    <string name="dining_number_3"><a href="tel:"></a></string>
+    <string name="dining_address_3"><a href=""></a></string>
+    <string name="dining_name_3"></string>
+    <string name="dining_blurb_3"></string>
+
+    <string name="dining_website_4"><a href=""></a></string>
+    <string name="dining_number_4"><a href="tel:"></a></string>
+    <string name="dining_address_4"><a href=""></a></string>
+    <string name="dining_name_4"></string>
+    <string name="dining_blurb_4"></string>
+
+    <string name="dining_website_5"><a href=""></a></string>
+    <string name="dining_number_5"><a href="tel:"></a></string>
+    <string name="dining_address_5"><a href=""></a></string>
+    <string name="dining_name_5"></string>
+    <string name="dining_blurb_5"></string>
+
+    <!-- Tours Strings (Name/Location/Website) -->
+
+    <string name="tour_website_1"><a href=""></a></string>
+    <string name="tour_number_1"><a href="tel:"></a></string>
+    <string name="tour_address_1"><a href=""></a></string>
+    <string name="tour_name_1"></string>
+    <string name="tour_blurb_1"></string>
+
+    <string name="tour_website_2"><a href=""></a></string>
+    <string name="tour_number_2"><a href="tel:"></a></string>
+    <string name="tour_address_2"><a href=""></a></string>
+    <string name="tour_name_2"></string>
+    <string name="tour_blurb_2"></string>
+
+    <string name="tour_website_3"><a href=""></a></string>
+    <string name="tour_number_3"><a href="tel:"></a></string>
+    <string name="tour_address_3"><a href=""></a></string>
+    <string name="tour_name_3"></string>
+    <string name="tour_blurb_3"></string>
+
+    <string name="tour_website_4"><a href=""></a></string>
+    <string name="tour_number_4"><a href="tel:"></a></string>
+    <string name="tour_address_4"><a href=""></a></string>
+    <string name="tour_name_4"></string>
+    <string name="tour_blurb_4"></string>
+
+    <string name="tour_website_5"><a href=""></a></string>
+    <string name="tour_number_5"><a href="tel:"></a></string>
+    <string name="tour_address_5"><a href=""></a></string>
+    <string name="tour_name_5"></string>
+    <string name="tour_blurb_5"></string>
+
+    <!-- Activites Strings (Name/Location/Website) -->
+
+    <string name="activities_website_1"><a href=""></a></string>
+    <string name="activities_number_1"><a href="tel:"></a></string>
+    <string name="activities_address_1"><a href=""></a></string>
+    <string name="activities_name_1"></string>
+    <string name="activities_blurb_1"></string>
+
+    <string name="activities_website_2"><a href=""></a></string>
+    <string name="activities_number_2"><a href="tel:"></a></string>
+    <string name="activities_address_2"><a href=""></a></string>
+    <string name="activities_name_2"></string>
+    <string name="activities_blurb_2"></string>
+
+    <string name="activities_website_3"><a href=""></a></string>
+    <string name="activities_number_3"><a href="tel:"></a></string>
+    <string name="activities_address_3"><a href=""></a></string>
+    <string name="activities_name_3"></string>
+    <string name="activities_blurb_3"></string>
+
+    <string name="activities_website_4"><a href=""></a></string>
+    <string name="activities_number_4"><a href="tel:"></a></string>
+    <string name="activities_address_4"><a href=""></a></string>
+    <string name="activities_name_4"></string>
+    <string name="activities_blurb_4"></string>
+
+    <string name="activities_website_5"><a href=""></a></string>
+    <string name="activities_number_5"><a href="tel:"></a></string>
+    <string name="activities_address_5"><a href=""></a></string>
+    <string name="activities_name_5"></string>
+    <string name="activities_blurb_5"></string>
+
+
+</resources>
