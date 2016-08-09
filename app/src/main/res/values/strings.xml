@@ -10,129 +10,128 @@
 
     <string name="hotel_website_1"><a href="http://www.fourseasons.com/">Four Seasons</a></string>
     <string name="hotel_number_1"><a href="tel:303.389.3000">(303) 389-3000</a></string>
-    <string name="hotel_address_1"><a href="https://goo.gl/maps/rSDVtmAhgiw">1111 14th St Denver, CO 80202</a></string>
+    <string name="hotel_address_1"><a href="https://goo.gl/maps/4zRg8AmPfX12">1111 14th St Denver, CO 80202</a></string>
     <string name="hotel_name_1">Four Seasons Hotel</string>
     <string name="hotel_blurb_1">Times change, but our dedication to perfecting the travel experience never will. Our highly personalized 24-hour service, combined with authentic, elegant surroundings of the highest quality, embodies a home away from home for those who know and appreciate the best. As the company has grown from a single hotel to 99 in 41 countries, our deeply instilled culture, personified by our employees, continues to get stronger. Over more than 50 years, our people ave built an unrivalled depth of reliability, trust and connection with our guests – a connection we will steadfastly uphold, now and always.</string>
 
-    <string name="hotel_website_2"><a href=""></a></string>
-    <string name="hotel_number_2"><a href="tel:"></a></string>
-    <string name="hotel_address_2"><a href=""></a></string>
-    <string name="hotel_name_2"></string>
-    <string name="hotel_blurb_2"></string>
+    <string name="hotel_website_2"><a href="http://www.ritzcarlton.com/en/hotels/colorado/denver">The Ritz-Carlton</a></string>
+    <string name="hotel_number_2"><a href="tel:303.312.3800">(303) 312-3800</a></string>
+    <string name="hotel_address_2"><a href="https://goo.gl/maps/3VtXDdbLSGQ2">1881 Curtis Street, Denver, CO 80202 </a></string>
+    <string name="hotel_name_2">The Ritz-Carlton</string>
+    <string name="hotel_blurb_2">Located in the heart of downtown, The Ritz-Carlton, Denver is renowned among luxury hotels for its plush accommodations, spectacular spa, and acclaimed fine dining. Here, in the center of the Mile High City, you are free to forget your cares and simply relax as you gaze out at the horizon where the Rocky Mountains meet an endless expanse of cornflower blue Colorado skies.</string>
 
-    <string name="hotel_website_3"><a href=""></a></string>
-    <string name="hotel_number_3"><a href="tel:"></a></string>
-    <string name="hotel_address_3"><a href=""></a></string>
-    <string name="hotel_name_3"></string>
-    <string name="hotel_blurb_3"></string>
+    <string name="hotel_website_3"><a href="http://www.brownpalace.com/">Brown Palace Hotel</a></string>
+    <string name="hotel_number_3"><a href="tel:303.297.3111">(303) 297-3111</a></string>
+    <string name="hotel_address_3"><a href="https://goo.gl/maps/1xyLNFDFLuM2">321 17th Street, Denver, CO 80202</a></string>
+    <string name="hotel_name_3">Brown Palace Hotel</string>
+    <string name="hotel_blurb_3">Contact The Brown Palace Hotel and Spa to experience luxury accommodations, elegant meeting venues amounting to nearly 20,000 square feet, palate-pleasing dining options and an elevated service standard that dates back to 1892. Our hotel in Downtown Denver is suitable for the business and leisure traveler alike and offers easy access to the 16th Street Mall, the Denver Convention Center, Coors Field and the Pepsi Center. Learn how you can experience a new tradition of luxury by visiting The Brown Palace today and see why we are long considered one of the best places to stay in Denver.</string>
 
-    <string name="hotel_website_4"><a href=""></a></string>
-    <string name="hotel_number_4"><a href="tel:"></a></string>
-    <string name="hotel_address_4"><a href=""></a></string>
-    <string name="hotel_name_4"></string>
-    <string name="hotel_blurb_4"></string>
+    <string name="hotel_website_4"><a href="http://www.hotelteatro.com/">Hotel Teatro</a></string>
+    <string name="hotel_number_4"><a href="tel:303.228.1100">(303) 228-1100</a></string>
+    <string name="hotel_address_4"><a href="https://goo.gl/maps/7ADnvNaMCXq">1100 14th Street Denver, Co 80202</a></string>
+    <string name="hotel_name_4">Hotel Teatro </string>
+    <string name="hotel_blurb_4">Hotel Teatro is ideally located in the heart of downtown Denver, Colorado, directly across from the Denver Center for Performing Arts, next to Denver Attractions, Denver Restaurants, and Things to Do in Denver. We sit just 2 blocks from the Colorado Convention Center, and close to the 16th Street Mall and Larimer Square. Nightlife in Lower Downtown Denver’s “LoDo” Historic District is only steps from our front door. Coors Field, the Pepsi Center, and Denver Pavilions are also within walking distance of Hotel Teatro. Denver International Airport is 25 miles away. The majestic backdrop of the Colorado Rocky Mountains and our central downtown location makes Hotel Teatro the best hotel in Denver Hotel for business or pleasure.</string>
 
-    <string name="hotel_website_5"><a href=""></a></string>
-    <string name="hotel_number_5"><a href="tel:"></a></string>
-    <string name="hotel_address_5"><a href=""></a></string>
-    <string name="hotel_name_5"></string>
-    <string name="hotel_blurb_5"></string>
+    <string name="hotel_website_5"><a href="www.theoxfordhotel.com">The Oxford Hotel</a></string>
+    <string name="hotel_number_5"><a href="tel:303.628.5400">(303) 628-5400</a></string>
+    <string name="hotel_address_5"><a href="https://goo.gl/maps/ZzdMEsFLsRw">1600 17th St, Denver, Co 80202</a></string>
+    <string name="hotel_name_5">The Oxford Hotel</string>
+    <string name="hotel_blurb_5">The Oxford Hotel opened its doors in 1891, making it the oldest and most historic of hotels in Denver, Colorado. With guests Theodore Roosevelt, the Dalai Lama, and Hillary Clinton, downtown Denver’s only wood-burning fireplace, and bow-tie wearing bellmen, our hotel has a luxurious charm that will keep you coming back for more.</string>
 
     <!-- Restaurant Strings (Name/Location/Website)  -->
 
-    <string name="dining_website_1"><a href=""></a></string>
-    <string name="dining_number_1"><a href="tel:"></a></string>
-    <string name="dining_address_1"><a href=""></a></string>
-    <string name="dining_name_1"></string>
-    <string name="dining_blurb_1"></string>
+    <string name="dining_website_1"><a href="www.fruitionrestaurant.com">Fruition Restaurant</a></string>
+    <string name="dining_number_1"><a href="tel:303.831.1962">303.831.1962</a></string>
+    <string name="dining_address_1"><a href="https://goo.gl/maps/5StpNBwUZs52">1313 E 6th Ave, Denver, CO 80218</a></string>
+    <string name="dining_name_1">Fruition Restaurant</string>
+    <string name="dining_blurb_1">Opened in 2007, Fruition Restaurant is a showcase of Chef Seidel’s passion to create approachable, delicious food without the pretense of fine dining. Fruition is perennially honored as one of the top restaurants in Colorado and helped earn Chef Seidel a spot on Food &amp; Wine Magazine’s Best New Chef list in 2010.</string>
 
-    <string name="dining_website_2"><a href=""></a></string>
-    <string name="dining_number_2"><a href="tel:"></a></string>
-    <string name="dining_address_2"><a href=""></a></string>
-    <string name="dining_name_2"></string>
-    <string name="dining_blurb_2"></string>
+    <string name="dining_website_2"><a href="http://mercantiledenver.com/">Mercantile Dining &amp; Provision</a></string>
+    <string name="dining_number_2"><a href="tel:720.460.3733">(720) 460-3733</a></string>
+    <string name="dining_address_2"><a href="https://goo.gl/maps/gcE3Vk1jG9w">1701 Wynkoop St #155, Denver, CO 80202</a></string>
+    <string name="dining_name_2">Mercantile Dining &amp; Provision</string>
+    <string name="dining_blurb_2">Everything we consume has a story. In combining the restaurant and the market, we are better able to deliver that story. Many of the products available in our market – the charcuterie, the cheese, the spices, the jams, the confit, etc – are used to create the dishes served in the restaurant, relaying the origins of the components in a dish. Our open kitchen concept peels back the curtain to show exactly how these components are used to create the finished product, providing the full narrative from farm to table.</string>
 
-    <string name="dining_website_3"><a href=""></a></string>
-    <string name="dining_number_3"><a href="tel:"></a></string>
-    <string name="dining_address_3"><a href=""></a></string>
-    <string name="dining_name_3"></string>
-    <string name="dining_blurb_3"></string>
+    <string name="dining_website_3"><a href="http://www.potagerrestaurant.com/">Potager</a></string>
+    <string name="dining_number_3"><a href="tel:303.832.5788">(303) 832-5788</a></string>
+    <string name="dining_address_3"><a href="https://goo.gl/maps/jn68cqTN74A2">1109 N Ogden St, Denver, CO 80218</a></string>
+    <string name="dining_name_3">Potager</string>
+    <string name="dining_blurb_3">Potager is Denver\'s original farm-to-table restaurant. Chef and owner Teri Ripetto sources many ingredients locally and uses the seasons to guide her ever-changing menus. Not to miss: any version of the cheese souffle.</string>
 
-    <string name="dining_website_4"><a href=""></a></string>
-    <string name="dining_number_4"><a href="tel:"></a></string>
-    <string name="dining_address_4"><a href=""></a></string>
-    <string name="dining_name_4"></string>
-    <string name="dining_blurb_4"></string>
+    <string name="dining_website_4"><a href="">Uncle</a></string>
+    <string name="dining_number_4"><a href="tel:303.433.3263">(303) 433-3263</a></string>
+    <string name="dining_address_4"><a href="https://goo.gl/maps/QkGmvboGXZm">2215 W 32nd Ave, Denver, CO 80211</a></string>
+    <string name="dining_name_4">Uncle</string>
+    <string name="dining_blurb_4">The Momofuku-esque dishes at Tommy Lee\'s LoHi noodle shop are still just as popular as they were when the restaurant first opened. Ramen is a challenging food to master, let alone various styles of it, but Uncle has it down. Must try: kimchi ramen.</string>
 
-    <string name="dining_website_5"><a href=""></a></string>
-    <string name="dining_number_5"><a href="tel:"></a></string>
-    <string name="dining_address_5"><a href=""></a></string>
-    <string name="dining_name_5"></string>
-    <string name="dining_blurb_5"></string>
+    <string name="dining_website_5"><a href="http://www.uncleramen.com/uncle/">Basta</a></string>
+    <string name="dining_number_5"><a href="tel:303.997.8775">(303) 997-8775</a></string>
+    <string name="dining_address_5"><a href="https://goo.gl/maps/7tqpwHLXECp">3601 Arapahoe Ave, Boulder, CO 80303</a></string>
+    <string name="dining_name_5">Basta</string>
+    <string name="dining_blurb_5">Tucked away in the Peloton complex on East Arapahoe, this is a wood-fired eatery that dishes out a variety of items from handmade pastas and Neapolitan pizzas to oysters and short ribs cooked sous vide.</string>
 
     <!-- Tours Strings (Name/Location/Website) -->
 
-    <string name="tour_website_1"><a href=""></a></string>
-    <string name="tour_number_1"><a href="tel:"></a></string>
-    <string name="tour_address_1"><a href=""></a></string>
-    <string name="tour_name_1"></string>
-    <string name="tour_blurb_1"></string>
+    <string name="tour_website_1"><a href="https://goo.gl/ZsH9Bi">Denver Mountain Parks &amp; City Tour></a></string>
+    <string name="tour_address_1"><a href="https://goo.gl/maps/4HyoaNXGtB22">Civic Center Park, West 14th Avenue, Denver, CO</a></string>
+    <string name="tour_name_1">Denver Mountain Parks &amp; City Tour</string>
+    <string name="tour_blurb_1">Discover Colorado\'s glorious mountain scenery and the bustling modern city of Denver on this day tour. Visit the famous Red Rock Amphitheater, Bear Creek Canyon, as well as major cultural and historical sites of this high-altitude metropolis.</string>
 
-    <string name="tour_website_2"><a href=""></a></string>
-    <string name="tour_number_2"><a href="tel:"></a></string>
-    <string name="tour_address_2"><a href=""></a></string>
-    <string name="tour_name_2"></string>
-    <string name="tour_blurb_2"></string>
+    <string name="tour_website_2"><a href="https://goo.gl/nPzd1h">Whistles, Bells &amp; Mountain Peaks Tour</a></string>
+    <string name="tour_address_2"><a href="https://goo.gl/maps/5HCpKqyLQUG2">Cherry Creek Shopping Center 3000 E 1st Ave Valet Entrance Denver</a></string>
+    <string name="tour_name_2">Whistles, Bells &amp; Mountain Peaks Tour</string>
+    <string name="tour_blurb_2">Ride the Georgetown Loop railroad and travel over Squaw Pass. Your trip includes a visit to historic Echo Lodge, and a delightful lunch with memorable mountain scenery.</string>
 
-    <string name="tour_website_3"><a href=""></a></string>
-    <string name="tour_number_3"><a href="tel:"></a></string>
-    <string name="tour_address_3"><a href=""></a></string>
-    <string name="tour_name_3"></string>
-    <string name="tour_blurb_3"></string>
+    <string name="tour_website_3"><a href="https://goo.gl/hUW8PI">Whiskey &amp; Jazz Walking Tour</a></string>
+    <string name="tour_address_3"><a href="https://goo.gl/maps/QDWe2SUerWQ2">2201 Lawrence St, Denver, CO 80205</a></string>
+    <string name="tour_name_3">Whiskey &amp; Jazz Walking Tour</string>
+    <string name="tour_blurb_3">Explore Denver’s hottest distilleries on foot and sample some of the finest whiskies in town. Follow an expert tour guide well versed in the craft distillery culture of the Mile-High City. Then enjoy live Jazz music at the famous El Chapultepec—The Pec.</string>
 
-    <string name="tour_website_4"><a href=""></a></string>
-    <string name="tour_number_4"><a href="tel:"></a></string>
-    <string name="tour_address_4"><a href=""></a></string>
-    <string name="tour_name_4"></string>
-    <string name="tour_blurb_4"></string>
+    <string name="tour_website_4"><a href="https://goo.gl/T6jpPb">Foothills Explorer Tour</a></string>
+    <string name="tour_address_4"><a href="https://goo.gl/maps/5EcJaRTt9az">Union Station, Wynkoop Street, Denver, CO</a></string>
+    <string name="tour_name_4">Foothills Explorer Tour</string>
+    <string name="tour_blurb_4">Embark on a half-day adventure to explore the historic towns and breathtaking natural scenery of the Rocky Mountain foothills beyond the Denver city limits. Hear tales from the Wild Wild West at the grave of Buffalo Bill, see real dinosaur tracks, and visit world-famous Red Rocks Amphitheatre.</string>
 
-    <string name="tour_website_5"><a href=""></a></string>
-    <string name="tour_number_5"><a href="tel:"></a></string>
-    <string name="tour_address_5"><a href=""></a></string>
-    <string name="tour_name_5"></string>
-    <string name="tour_blurb_5"></string>
+    <string name="tour_website_5"><a href="https://goo.gl/scvPtF">Guided Rocky Mountain Sightseeing Tour</a></string>
+    <string name="tour_address_5"><a href="https://goo.gl/maps/nydFAGWytzo">700-798 12th Street, Golden, CO 80401</a></string>
+    <string name="tour_name_5">Guided Rocky Mountain Sightseeing Tour</string>
+    <string name="tour_blurb_5">Embark on an adventure through the majestic Rockies and tailor your journey by handpicking the sites you visit. With a diverse range of scenic destinations, you can visit Buffalo Bill\'s Grave, explore the beautiful Red Rock Amphitheater, or drive up to 14,000 feet (4,270 m) in altitude.</string>
 
     <!-- Activites Strings (Name/Location/Website) -->
 
-    <string name="activities_website_1"><a href=""></a></string>
-    <string name="activities_number_1"><a href="tel:"></a></string>
-    <string name="activities_address_1"><a href=""></a></string>
-    <string name="activities_name_1"></string>
-    <string name="activities_blurb_1"></string>
+    <string name="activities_website_1"><a href="http://www.botanicgardens.org/">Denver Botanic Gardens</a></string>
+    <string name="activities_number_1"><a href="tel:303.865.3501">(720) 865-3501</a></string>
+    <string name="activities_address_1"><a href="https://goo.gl/maps/JwxKzEyp2dT2">1007 York St, Denver, CO 80206</a></string>
+    <string name="activities_name_1">Denver Botanic Gardens</string>
+    <string name="activities_blurb_1">Denver Botanic Gardens strives to entertain and delight while spreading the collective wisdom of the Gardens through outreach, collaboration and education. Our conservation programs play a major role in saving species and protecting natural habitats for future generations.</string>
 
-    <string name="activities_website_2"><a href=""></a></string>
-    <string name="activities_number_2"><a href="tel:"></a></string>
-    <string name="activities_address_2"><a href=""></a></string>
-    <string name="activities_name_2"></string>
-    <string name="activities_blurb_2"></string>
+    <string name="activities_website_2"><a href="http://www.dmns.org/">Denver Museum of Nature &amp; Science</a></string>
+    <string name="activities_number_2"><a href="tel:303.370.6000">(303) 370-6000</a></string>
+    <string name="activities_address_2"><a href="https://goo.gl/maps/EoQHFeCBM8u">2001 Colorado Blvd, Denver, CO 80205</a></string>
+    <string name="activities_name_2">Denver Museum of Nature &amp; Science</string>
+    <string name="activities_blurb_2">The Denver Museum of Nature &amp; Science envisions an empowered community that loves, understands, and protects our natural world.</string>
 
-    <string name="activities_website_3"><a href=""></a></string>
-    <string name="activities_number_3"><a href="tel:"></a></string>
-    <string name="activities_address_3"><a href=""></a></string>
-    <string name="activities_name_3"></string>
-    <string name="activities_blurb_3"></string>
+    <string name="activities_website_3"><a href="http://denverartmuseum.org/">Denver Art Museum</a></string>
+    <string name="activities_number_3"><a href="tel:720.865.5000">(720) 865-5000</a></string>
+    <string name="activities_address_3"><a href="https://goo.gl/maps/KFVWvRMr9mS2">100 W 14th Ave Pkwy, Denver, CO 80204</a></string>
+    <string name="activities_name_3">Denver Art Museum</string>
+    <string name="activities_blurb_3">The Denver Art Museum is an educational, nonprofit resource that sparks creative thinking and expression through transformative experiences with art. Its holdings reflect the city and region—and provide invaluable ways for the community to learn about cultures from around the world.</string>
 
-    <string name="activities_website_4"><a href=""></a></string>
-    <string name="activities_number_4"><a href="tel:"></a></string>
-    <string name="activities_address_4"><a href=""></a></string>
-    <string name="activities_name_4"></string>
-    <string name="activities_blurb_4"></string>
+    <string name="activities_website_4"><a href="http://www.denverzoo.org/">Denver Zoo</a></string>
+    <string name="activities_number_4"><a href="tel:720.337.1400">(720) 337-1400</a></string>
+    <string name="activities_address_4"><a href="https://goo.gl/maps/xFBKbhBgTrn">2300 Steele St, Denver, CO 80205</a></string>
+    <string name="activities_name_4">Denver Zoo</string>
+    <string name="activities_blurb_4">Denver Zoo is a leader in animal care and visitor experience. We are passionate about our commitment to excellence in support of our mission: SECURE A BETTER WORLD FOR ANIMALS
+THROUGH HUMAN UNDERSTANDING
+We provide extraordinary experiences every day for our animals and visitors and our core values are evident in everything we do:
 
-    <string name="activities_website_5"><a href=""></a></string>
-    <string name="activities_number_5"><a href="tel:"></a></string>
-    <string name="activities_address_5"><a href=""></a></string>
-    <string name="activities_name_5"></string>
-    <string name="activities_blurb_5"></string>
+Protect • Honor • Innovate • Engage • Empower • Serve</string>
+
+    <string name="activities_website_5"><a href="http://unionstationindenver.com/">Union Station</a></string>
+    <string name="activities_number_5"><a href="tel:800.872.7245">(800) 872-7245</a></string>
+    <string name="activities_address_5"><a href="https://goo.gl/maps/1oTsyKGCTd62">1701 Wynkoop St, Denver, CO 80202</a></string>
+    <string name="activities_name_5">Union Station</string>
+    <string name="activities_blurb_5">Step through any of the Denver Union Station entrances and you’ll automatically see that history got a makeover. Every detail of our stunning Great Hall space pays homage to a pioneer spirit while embracing a truly modern sensibility.</string>
 
 
 </resources>

@@ -18,22 +18,22 @@ public class TourGuideItem implements Parcelable {
             return new TourGuideItem[size];
         }
     };
-    private static final int NO_IMAGE_PROVIDED = -1;
+    private static final int NO_RESOURCE_PROVIDED = -1;
     // Website of Location
-    private String mLocationWebsite;
+    private int mLocationWebsite = NO_RESOURCE_PROVIDED;
     // Address of Location
-    private String mLocationAddress;
+    private int mLocationAddress = NO_RESOURCE_PROVIDED;
     // Telephone of Location
-    private String mLocationTelephone;
+    private int mLocationTelephone = NO_RESOURCE_PROVIDED;
     // Name of Location
-    private String mLocationName;
+    private int mLocationName = NO_RESOURCE_PROVIDED;
     // Blurb of Location
-    private String mLocationBlurb;
+    private int mLocationBlurb = NO_RESOURCE_PROVIDED;
     // Image resource ID
-    private int mLocationImageResourceId = NO_IMAGE_PROVIDED;
+    private int mLocationImageResourceId = NO_RESOURCE_PROVIDED;
 
-    public TourGuideItem(String mLocationWebsite, String mLocationAddress, String mLocationTelephone,
-                         String mLocationName, String mLocationBlurb, int mLocationImageResourceId) {
+    public TourGuideItem(int mLocationWebsite, int mLocationAddress, int mLocationTelephone,
+                         int mLocationName, int mLocationBlurb, int mLocationImageResourceId) {
         this.mLocationWebsite = mLocationWebsite;
         this.mLocationAddress = mLocationAddress;
         this.mLocationTelephone = mLocationTelephone;
@@ -42,55 +42,49 @@ public class TourGuideItem implements Parcelable {
         this.mLocationImageResourceId = mLocationImageResourceId;
     }
 
+    public TourGuideItem(int mLocationWebsite, int mLocationAddress, int mLocationName,
+                         int mLocationBlurb, int mLocationImageResourceId) {
+        this.mLocationWebsite = mLocationWebsite;
+        this.mLocationAddress = mLocationAddress;
+        this.mLocationName = mLocationName;
+        this.mLocationBlurb = mLocationBlurb;
+        this.mLocationImageResourceId = mLocationImageResourceId;
+    }
+
     public TourGuideItem() {
     }
 
-    protected TourGuideItem(Parcel in) {
-        mLocationWebsite = in.readString();
-        mLocationAddress = in.readString();
-        mLocationTelephone = in.readString();
-        mLocationName = in.readString();
+    private TourGuideItem(Parcel in) {
+        mLocationWebsite = in.readInt();
+        mLocationAddress = in.readInt();
+        mLocationTelephone = in.readInt();
+        mLocationName = in.readInt();
+        mLocationBlurb = in.readInt();
         mLocationImageResourceId = in.readInt();
     }
 
-    public String getmLocationWebsite() {
+    public int getmLocationWebsite() {
         return mLocationWebsite;
     }
 
-    public void setmLocationWebsite(String mLocationWebsite) {
-        this.mLocationWebsite = mLocationWebsite;
-    }
-
-    public String getmLocationAddress() {
+    public int getmLocationAddress() {
         return mLocationAddress;
     }
 
-    public void setmLocationAddress(String mLocationAddress) {
-        this.mLocationAddress = mLocationAddress;
-    }
-
-    public String getmLocationTelephone() {
+    public int getmLocationTelephone() {
         return mLocationTelephone;
     }
 
-    public void setmLocationTelephone(String mLocationTelephone) {
-        this.mLocationTelephone = mLocationTelephone;
-    }
-
-    public String getmLocationName() {
+    public int getmLocationName() {
         return mLocationName;
     }
 
-    public void setmLocationName(String mLocationName) {
-        this.mLocationName = mLocationName;
+    public int getmLocationBlurb() {
+        return mLocationBlurb;
     }
 
     public int getmLocationImageResourceId() {
         return mLocationImageResourceId;
-    }
-
-    public void setmLocationImageResourceId(int mLocationImageResourceId) {
-        this.mLocationImageResourceId = mLocationImageResourceId;
     }
 
     @Override
@@ -101,9 +95,14 @@ public class TourGuideItem implements Parcelable {
     @Override
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeInt(mLocationImageResourceId);
-        dest.writeString(mLocationAddress);
-        dest.writeString(mLocationName);
-        dest.writeString(mLocationTelephone);
-        dest.writeString(mLocationWebsite);
+        dest.writeInt(mLocationAddress);
+        dest.writeInt(mLocationName);
+        dest.writeInt(mLocationTelephone);
+        dest.writeInt(mLocationWebsite);
+        dest.writeInt(mLocationBlurb);
+    }
+
+    public boolean hasPhoneNumber() {
+        return mLocationTelephone != NO_RESOURCE_PROVIDED;
     }
 }

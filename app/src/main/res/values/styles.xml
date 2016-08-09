@@ -23,7 +23,7 @@
     </style>
 
     <style name="ViewFormat.tabTextAppearance">
-        <item name="android:textSize">10dp</item>
+        <item name="android:textSize">10sp</item>
         <item name="android:textColor">@color/textIcons</item>
     </style>
 

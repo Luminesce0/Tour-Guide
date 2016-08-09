@@ -8,39 +8,32 @@ import android.text.SpannableString;
 import android.text.TextPaint;
 import android.text.method.LinkMovementMethod;
 import android.text.style.URLSpan;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
  * Created by Kiora on 8/5/2016.
  */
-public class TourGuidePageAdapter extends AppCompatActivity{
+public class TourGuidePage extends AppCompatActivity {
 
-    // Website of Location
-    private String mLocationWebsite;
-
-    // Address of Location
-    private String mLocationAddress;
-
-    // Telephone of Location
-    private String mLocationTelephone;
-
-    // Name of Location
-    private String mLocationName;
-
-    // Image resource ID
-    private int mLocationImageResourceId;
-
-    public TourGuidePageAdapter() {
+    public TourGuidePage() {
     }
 
-    public void GenerateTourGuidePage (TourGuideItem tourGuideItem) {
+    /*
+     * To save some memory I've heard that accessing the fields directly instead of
+     * using getters is more effecient in android. Must study up on this.
+     * How is it done?
+     */
 
-        mLocationAddress = tourGuideItem.getmLocationAddress();
-        mLocationImageResourceId = tourGuideItem.getmLocationImageResourceId();
-        mLocationName = tourGuideItem.getmLocationName();
-        mLocationTelephone = tourGuideItem.getmLocationTelephone();
-        mLocationWebsite = tourGuideItem.getmLocationWebsite();
+    private void GenerateTourGuidePage(TourGuideItem tourGuideItem) {
+
+        int mLocationAddress = tourGuideItem.getmLocationAddress();
+        int mLocationImageResourceId = tourGuideItem.getmLocationImageResourceId();
+        int mLocationName = tourGuideItem.getmLocationName();
+        int mLocationTelephone = tourGuideItem.getmLocationTelephone();
+        int mLocationWebsite = tourGuideItem.getmLocationWebsite();
+        int mLocationBlurb = tourGuideItem.getmLocationBlurb();
 
         // Location Image
         ImageView locationImage = (ImageView) findViewById(R.id.location_image);
@@ -55,6 +48,14 @@ public class TourGuidePageAdapter extends AppCompatActivity{
         TextView locationPhoneNumber = (TextView) findViewById(R.id.location_page_phone_number);
         locationPhoneNumber.setText(mLocationTelephone);
 
+        if (tourGuideItem.hasPhoneNumber()) {
+            locationPhoneNumber.setText(tourGuideItem.getmLocationTelephone());
+
+            locationPhoneNumber.setVisibility(View.VISIBLE);
+        } else {
+            locationPhoneNumber.setVisibility(View.GONE);
+        }
+
         // Location Directions
         TextView locationDirections = (TextView) findViewById(R.id.location_page_direction);
         locationDirections.setText(mLocationAddress);
@@ -63,9 +64,18 @@ public class TourGuidePageAdapter extends AppCompatActivity{
         TextView locationWebsite = (TextView) findViewById(R.id.location_page_website);
         locationWebsite.setText(mLocationWebsite);
 
+        if (tourGuideItem.hasPhoneNumber()) {
+            locationWebsite.setText(tourGuideItem.getmLocationWebsite());
+
+            locationWebsite.setVisibility(View.VISIBLE);
+        } else {
+            locationWebsite.setVisibility(View.GONE);
+        }
+
 
         // Location Blurb
         TextView locationBlurb = (TextView) findViewById(R.id.location_page_blurb);
+        locationBlurb.setText(mLocationBlurb);
 
 
         // Location Phone Number Text
@@ -96,23 +106,10 @@ public class TourGuidePageAdapter extends AppCompatActivity{
         GenerateTourGuidePage(tourGuideItem);
     }
 
-
-    // Get rid of underlines.
-    // Reference: https://stackoverflow.com/questions/4096851/remove-underline-from-links-in-textview-android/4463535#4463535
-    private class URLSpanNoUnderline extends URLSpan {
-        public URLSpanNoUnderline(String url) {
-            super(url);
-        }
-        @Override public void updateDrawState(TextPaint ds) {
-            super.updateDrawState(ds);
-            ds.setUnderlineText(false);
-        }
-    }
-
     private void stripUnderlines(TextView textView) {
         Spannable s = new SpannableString(textView.getText());
         URLSpan[] spans = s.getSpans(0, s.length(), URLSpan.class);
-        for (URLSpan span: spans) {
+        for (URLSpan span : spans) {
             int start = s.getSpanStart(span);
             int end = s.getSpanEnd(span);
             s.removeSpan(span);
@@ -120,5 +117,19 @@ public class TourGuidePageAdapter extends AppCompatActivity{
             s.setSpan(span, start, end, 0);
         }
         textView.setText(s);
+    }
+
+    // Get rid of underlines.
+    // Reference: https://stackoverflow.com/questions/4096851/remove-underline-from-links-in-textview-android/4463535#4463535
+    private class URLSpanNoUnderline extends URLSpan {
+        public URLSpanNoUnderline(String url) {
+            super(url);
+        }
+
+        @Override
+        public void updateDrawState(TextPaint ds) {
+            super.updateDrawState(ds);
+            ds.setUnderlineText(false);
+        }
     }
 }

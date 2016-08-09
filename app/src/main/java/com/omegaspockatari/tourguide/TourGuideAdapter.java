@@ -13,7 +13,7 @@ import java.util.ArrayList;
 /**
  * Created by Miranda on 8/3/2016.
  */
-public class TourGuideAdapter extends ArrayAdapter<TourGuideItem> {
+class TourGuideAdapter extends ArrayAdapter<TourGuideItem> {
 
     public TourGuideAdapter(Context context, ArrayList<TourGuideItem> tourGuideItems) {
         super(context, 0, tourGuideItems);

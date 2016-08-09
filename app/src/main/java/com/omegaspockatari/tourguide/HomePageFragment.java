@@ -21,7 +21,7 @@ public class HomePageFragment extends Fragment {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.tour_guide_list, container, false);
 
-        final ArrayList<TourGuideItem> tourGuideItems = new ArrayList<TourGuideItem>();
+        final ArrayList<TourGuideItem> tourGuideItems = new ArrayList<>();
 
         TourGuideAdapter adapter = new TourGuideAdapter(getActivity(), tourGuideItems);
 
