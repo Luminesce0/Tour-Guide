@@ -8,6 +8,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+
 import java.util.ArrayList;
 
 /**
@@ -34,7 +36,14 @@ class TourGuideAdapter extends ArrayAdapter<TourGuideItem> {
         tourGuideLocationName.setText(tourGuideItem.getmLocationName());
 
         ImageView tourGuideLocationImage = (ImageView) listItemView.findViewById(R.id.location_image);
-        tourGuideLocationImage.setBackgroundResource(tourGuideItem.getmLocationImageResourceId());
+
+
+
+        Glide.with(tourGuideLocationImage.getContext())
+                .load(tourGuideItem.getmLocationImageResourceId())
+                .override(600,200)
+                .centerCrop()
+                .into(tourGuideLocationImage);
 
         return listItemView;
     }

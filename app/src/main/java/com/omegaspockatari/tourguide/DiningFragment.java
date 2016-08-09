@@ -53,7 +53,7 @@ public class DiningFragment extends Fragment {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent = new Intent(getActivity(), TourGuidePage.class);
 
-                intent.putExtra("tourGuideItem", tourGuideItems);
+                intent.putParcelableArrayListExtra("tourGuideItem", tourGuideItems);
 
                 startActivity(intent);
             }

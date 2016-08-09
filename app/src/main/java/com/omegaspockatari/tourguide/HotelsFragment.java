@@ -56,7 +56,7 @@ public class HotelsFragment extends Fragment {
 
                 Intent intent = new Intent(getActivity(), TourGuidePage.class);
 
-                intent.putExtra("tourGuideItem", tourGuideItems);
+                intent.putParcelableArrayListExtra("tourGuideItem", tourGuideItems);
 
                 startActivity(intent);
             }
