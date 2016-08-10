@@ -26,8 +26,10 @@ class FragmentsPagerAdapter extends FragmentPagerAdapter {
             return new HotelsFragment();
         } else if (position == 2){
             return new DiningFragment();
+        } else if (position == 3){
+            return new TourFragment();
         } else {
-            return new DiningFragment();
+            return new ActivityFragment();
         }
     }
 

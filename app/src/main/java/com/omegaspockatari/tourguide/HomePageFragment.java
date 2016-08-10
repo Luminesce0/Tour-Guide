@@ -1,13 +1,11 @@
 package com.omegaspockatari.tourguide;
 
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ListView;
-
-import java.util.ArrayList;
 
 public class HomePageFragment extends Fragment {
 
@@ -15,26 +13,13 @@ public class HomePageFragment extends Fragment {
         // Required empty public constructor
     }
 
+    @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        View rootView = inflater.inflate(R.layout.tour_guide_list, container, false);
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-        final ArrayList<TourGuideItem> tourGuideItems = new ArrayList<>();
-
-        TourGuideAdapter adapter = new TourGuideAdapter(getActivity(), tourGuideItems);
-
-        ListView listView = (ListView) rootView.findViewById(R.id.list);
-
-        listView.setAdapter(adapter);
-
-//        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-//
-//        })
+        View rootView = inflater.inflate(R.layout.fragment_home_page, container, false);
 
         return rootView;
-
 
     }
 }

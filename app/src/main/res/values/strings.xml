@@ -132,6 +132,12 @@ Protect • Honor • Innovate • Engage • Empower • Serve</string>
     <string name="activities_address_5"><a href="https://goo.gl/maps/1oTsyKGCTd62">1701 Wynkoop St, Denver, CO 80202</a></string>
     <string name="activities_name_5">Union Station</string>
     <string name="activities_blurb_5">Step through any of the Denver Union Station entrances and you’ll automatically see that history got a makeover. Every detail of our stunning Great Hall space pays homage to a pioneer spirit while embracing a truly modern sensibility.</string>
+    <string name="app_blurbs_title">Tour Guide Colorado</string>
+    <string name="app_name_xml_detail">Denver Edition</string>
+    <string name="app_blurb_denver">This time on Tour Guide we\'ve gathered a \nfew of the many experiences Denver has \nto offer from fine dining to fantastic \nfamily activities and much more. \n\nWe hope you enjoy your stay!</string>
+    <string name="app_blurb_denver_title">Denver</string>
+    <string name="app_blurb_colorado_title">Welcome to Colorado!</string>
+    <string name="app_blurb_colorado">Colorado is a state known for its geographic \ndiversity, abundant outdoor recreational \nopportunities and much more!</string>
 
 
 </resources>
